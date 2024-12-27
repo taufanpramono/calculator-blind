@@ -1,0 +1,510 @@
+/*pengaturan kolom utama*/
+
+selector .header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     align-items: stretch;
+    gap: 20px; 
+}
+
+selector .header-info, selector .header-total {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+selector #total-cost-top {
+    font-size: 35px;
+    color: #ff007b;
+    font-weight: 600;
+}
+
+selector .header-info, .header-total {
+    flex: 1; 
+}
+
+selector #dynamic-sections {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+selector #dynamic-sections .button {
+    padding: 10px 20px;
+    background-color: #ff007b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap; /* Mencegah teks tombol terputus */
+}
+
+selector #sections-list {
+    margin-top: 20px; /* Jarak antara daftar dan tombol */
+    width: 100%; /* Memastikan daftar tetap berada di bawah */
+}
+
+
+/*Pengaturan Bagian Rendered*/
+
+selector .section {
+    padding: 30px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 20px
+}
+
+selector .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+selector .section-header h4 {
+    font-size: 24px;
+}
+
+selector .section-header .delete-section-btn {
+    border-radius: 50px;
+    
+}
+
+selector .select-product-btn {
+    padding: 10px 20px;
+    background-color: #ff007b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+selector .quantity-input {
+    width: 80px;
+    margin: 0 10px;
+}
+
+selector .product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+
+/*pengaturan kolom 1 atas*/
+
+selector .header-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+selector .header-info .title-judul {
+    text-align: left;
+}
+
+selector .header-info .title-judul h3 {
+    font-size: 30px;
+    color: #333;
+    margin: 0;
+}
+
+selector .header-info .isi-konten {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+selector .header-info .isi-konten img {
+    width: 150px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+selector .header-info .isi-konten .text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+selector .header-info .isi-konten .text-content p {
+    margin: 0;
+    color: #555;
+    font-size: 14px;
+}
+
+selector .header-info .bottom-bawah {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+selector .header-info .bottom-bawah .button {
+    padding: 10px 20px;
+    background-color: #ff007b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+selector #selected-category-name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+selector #selected-category-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+/*pengaturan modals*/
+
+
+selector .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+selector .modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+}
+
+selector .close-modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff007b;
+    color: white;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+selector #dimension-modal-title {
+    font-size: 25px;
+}
+
+selector .modal-content h2 {
+    font-size: 25px;
+}
+
+selector #dimension-form .button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff007b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+selector #dimension-form #width {
+    margin-bottom: 15px;
+}
+
+
+
+/*pengaturan footer*/
+
+selector .footer-section {
+        padding: 20px; 
+        margin-top: 15px; 
+        background-color:  white;
+        border-radius: 20px;
+        border: 1px solid #ddd;
+    }
+    
+selector .footer-section #whatsapp-link {
+    padding: 10px 20px;
+    background-color: #ff007b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+selector .footer-section #total-cost-bottom {
+    
+    color : #ff007b;
+    font-size: 25px; 
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+selector .footer-section h3 {
+    
+    font-size: 25px;
+    
+}
+
+
+
+/*pengaturan tabel*/
+
+/* Pengaturan Tabel */
+#category-table,
+#product-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#category-table thead,
+#product-table thead {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+#category-table th,
+#product-table th,
+#category-table td,
+#product-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+#category-table td img,
+#product-table td img {
+    width: 50px;
+    height: auto;
+}
+
+/* Scroll Horizontal dan Vertikal */
+#category-modal .modal-content,
+#product-modal .modal-content {
+    max-height: 80%; /* Batas tinggi modal */
+    overflow-y: auto; /* Scroll vertikal */
+    overflow-x: auto; /* Scroll horizontal */
+}
+
+
+
+
+
+/* Gaya Umum Tetap Sama */
+
+/* Media Queries untuk Tablet (Ukuran Layar Maksimal 768px) */
+@media (max-width: 768px) {
+    selector .header-section {
+        flex-direction: column; 
+        gap: 15px; 
+    }
+
+    selector .header-info, selector .header-total {
+        padding: 20px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    }
+
+    selector .header-info .isi-konten {
+        flex-direction: column; 
+        align-items: flex-start; 
+        gap: 10px;
+    }
+
+    selector .header-info .isi-konten img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    selector .footer-section {
+        padding: 20px; 
+        margin-top: 15px; 
+    }
+    selector #whatsapp-link {
+        width: 100%; 
+        text-align: center;
+    }
+}
+
+
+
+
+
+/* Media Queries untuk Mobile (Ukuran Layar Maksimal 480px) */
+
+@media (max-width: 480px) {
+    selector .header-section {
+        flex-direction: column;
+        gap: 10px; 
+    }
+
+    selector .header-info, selector .header-total {
+        padding: 25px; 
+    }
+    
+    selector .header-info .bottom-bawah .button {
+        width : 100%;
+    }
+    
+    selector .header-info .isi-konten img {
+        width: 100%; 
+        height: auto;
+    }
+    
+   selector #selected-category-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-left : auto;
+    margin-right : auto;
+    }
+    
+    selector .text-content {
+    width: 100%;
+    }
+    
+    selector #selected-category-name {
+        text-align : center;
+        width : 100%;
+    }
+    
+    selector .header-info .title-judul h3 {
+    text-align : center;
+    }
+    
+    selector .header-info .isi-konten .text-content p {
+    text-align : center;
+    margin-top : 10px;
+    }
+
+    selector .header-info .isi-konten .text-content p {
+        font-size: 12px; 
+    }
+    
+    selector #dynamic-sections {
+        justify-content : center;
+    }
+    
+    selector #dynamic-sections .button {
+        width : 100%;
+    }
+    
+    selector .header-total h3 {
+        text-align : center;
+    }
+    
+    selector #total-cost-top {
+        font-size: 28px; 
+        text-align : center;
+    }
+
+   
+    selector #total-cost-bottom {
+        font-size: 18px; /* Kurangi ukuran font */
+    }
+    
+    
+    
+   
+selector .footer-section #whatsapp-link {
+    padding : 10px 110px ;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+selector .footer-section #total-cost-bottom {
+    text-align : center;
+}
+
+selector .footer-section h3 {
+   text-align : center;
+}
+    
+}
+
+
+
+
+/* Tambahan untuk Komponen Modals */
+
+
+@media (max-width: 768px) {
+    #category-table th,
+    #product-table th,
+    #category-table td,
+    #product-table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    #category-table td img,
+    #product-table td img {
+        max-width: 40px;
+    }
+
+    #category-table td button,
+    #product-table td button {
+        font-size: 12px;
+        padding: 6px 12px;
+        white-space: nowrap;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    #category-table th,
+    #product-table th,
+    #category-table td,
+    #product-table td {
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    #category-table td img,
+    #product-table td img {
+        max-width: 35px;
+    }
+
+    #category-table td button,
+    #product-table td button {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+}
+
+
+
